@@ -1,0 +1,74 @@
+body {
+    margin: 0; padding: 15px;
+    font-family: Helvetica, sans-serif;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+aside {
+	float: left;
+	width: 200px;
+	display: inline-block;
+}
+
+aside > * {
+	display: block;
+	position: relative;
+	margin: 30px auto;
+	font-size: 30px;
+}
+
+#hide {
+	display: none;
+}
+
+#timer {
+	color: red;
+	display: block;
+	font-size: 45px;
+	text-align: center;
+	background-color: #ccc;
+	margin: 14px;
+}
+
+.ctx {
+    width: 600px;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.ctx div {
+    height: 95px;
+    width: 95px;
+    margin-right: 5px;
+    background: url("https://i2.wp.com/codebits.eu/logos/defaultavatar.jpg") no-repeat;
+    background-size: 95px !important;
+    display: inline-block;
+}
+
+.ctx div:hover {    
+    border: 5px solid red;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+footer {
+	margin-top: 25px;
+	font-size: 25px;
+	text-decoration: none;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: #000;
+	font-size: 35px;
+}
+
+footer span {
+	color: #50C5FF;
+}
