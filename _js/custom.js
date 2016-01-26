@@ -28,6 +28,7 @@ function startCounter() {
 
 // GET BADGES DATA FROM REMOTE JSON WITH JSONP CALLBACK
 var script = document.createElement('script');
+script.type = 'text/javascript';
 script.src = 'https://codebits.eu/api/listbadges?callback=getData';
 document.body.appendChild(script);
 
