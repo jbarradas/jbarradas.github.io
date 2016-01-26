@@ -30,6 +30,7 @@ function startCounter() {
 var script = document.createElement('script');
 script.contentType = 'application/javascript';
 script.type = 'application/javascript';
+script.overrideMimeType("text/javascript; charset=utf-8");
 script.src = 'https://codebits.eu/api/listbadges?callback=getData';
 document.body.appendChild(script);
 
